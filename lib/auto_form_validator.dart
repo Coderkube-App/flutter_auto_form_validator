@@ -1,5 +1,3 @@
-library flutter_auto_form_validator;
-
 import 'dart:convert';
 import 'package:flutter/widgets.dart';
 
@@ -214,7 +212,7 @@ class AutoFormValidator {
     return null;
   }
 
-  /// Validates a credit card number using basic format and Luhn algorithm.
+  /// Validates a credit card number using basic format and algorithm.
   static String? creditCard(String? value, {String? message}) {
     if (value == null || value.trim().isEmpty) return null;
     final cleanValue = value.replaceAll(RegExp(r'\s|-'), '');

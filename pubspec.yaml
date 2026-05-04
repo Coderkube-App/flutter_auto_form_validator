@@ -1,7 +1,10 @@
 name: auto_form_validator
 description: "A lightweight form validation package for Dart & Flutter."
-version: 0.0.1
-homepage:
+version: 0.0.4
+
+homepage: https://github.com/Coderkube-App
+repository: https://github.com/Coderkube-App/flutter_auto_form_validator
+issue_tracker: https://github.com/Coderkube-App/flutter_auto_form_validator/issues
 
 environment:
   sdk: ^3.10.8
